@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.matrix-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    transition: opacity 1s ease-out;
+}
+
+canvas {
+    display: block;
+}
+
+.wipe-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+
+#main-content {
+    display: none;
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Ganne | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- GSAP Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- GSAP ScrollTrigger Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    </head>
+    <body>
+        <div class="side-glow left-glow"></div>
+        <div class="side-glow right-glow"></div>
+        <!-- Background canvas for subtle matrix effect -->
+        <canvas id="background-canvas"></canvas>
+        
+        <!-- Hero section with cursor-following effect -->
+        <section id="hero-section" class="hero">
+            <div class="cursor-gradient-tracking"></div>
+            <div class="hero-content">
+                <h2 class="glitch" data-text="I AM">I AM</h2>
+                <h1 class="glitch" data-text="MOHIT GANNE">MOHIT GANNE</h1>
+            </div>
+        </section>
+        
+        <!-- Content container for dynamically loaded sections -->
+        <div id="content">
+            <!-- Content will be loaded here -->
+        </div>
+        
+        <script src="js/animations.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+    
+</html>
